@@ -1,28 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin Fashion | Main </title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/a09e35ca2f.js" crossorigin="anonymous"></script>
+    <!-- bebas neue font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <!-- roboto font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        .bebas-neue-regular {
+            font-family: "Bebas Neue", sans-serif;
+        }
+
+        .roboto-regular {
+            font-family: "Roboto", sans-serif;
+
+        }
+    </style>
 </head>
-<body>
-    <header>
-        <nav>
 
-        </nav>
-        <!-- banner start -->
-        <div>
-            <div>
+<body class="roboto-regular">
+    <header class="bg-[#FFFBF0]">
+        <section class="max-w-[1440px] mx-auto">
+            <nav>
 
+            </nav>
+            <!-- banner start -->
+            <div class="px-4 pt-9 lg:pb-10 md:flex items-center ">
+                <!-- banner text -->
+                <div class="">
+                    <h1 class="text-6xl lg:text-9xl uppercase bebas-neue-regular">
+                        <span class="text-[#FABE4C]">Be the Penguins <br></span>
+                        <span class="text-[#363958]">of Winter</span>
+                    </h1>
+                    <p class="text-[#3E3E3E] mb-6 max-w-[295px]">Lorem Ipsum is simply dummy text of the printing
+                        and typesetting industry.</p>
+                    <button class="bg-gradient-to-r from-[#A4BC46] to-[#85A019] px-8 py-4 rounded-lg text-white font-medium">
+                        <i class="fa-solid fa-cart-shopping mr-2"></i>
+                        Buy Now</button>
+                </div>
+                <!-- banner image -->
+                <div class="w-11/12 mx-auto mt-12 md:w-1/2">
+                    <img class="w-full" src="images/model.png" alt="">
+                </div>
             </div>
-            <!-- banner image -->
-            <div>
-                <img src="images/model.png" alt="">
-            </div>
-        </div>
+        </section>
     </header>
     <main></main>
     <footer></footer>
 </body>
+
 </html>
